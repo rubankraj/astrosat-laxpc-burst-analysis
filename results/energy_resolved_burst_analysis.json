@@ -1,0 +1,330 @@
+{
+  "broadband_json": "/home/ruban/AstroSat/observations/4U1728-34/T01_041T01_9000000362/pipelines/parameters check/burst_analysis_confirmed.json",
+  "band_files": {
+    "3.0-9.0": "/home/ruban/AstroSat/observations/4U1728-34/T01_041T01_9000000362/results/lc/lightcurve_all_3_9keV.lc",
+    "9.0-15.0": "/home/ruban/AstroSat/observations/4U1728-34/T01_041T01_9000000362/results/lc/lightcurve_all_9_15keV.lc",
+    "15.0-21.0": "/home/ruban/AstroSat/observations/4U1728-34/T01_041T01_9000000362/results/lc/lightcurve_all_15_21keV.lc",
+    "21.0-30.0": "/home/ruban/AstroSat/observations/4U1728-34/T01_041T01_9000000362/results/lc/lightcurve_all_21_30keV.lc",
+    "30.0-40.0": "/home/ruban/AstroSat/observations/4U1728-34/T01_041T01_9000000362/results/lc/lightcurve_all_30_40keV.lc"
+  },
+  "rebin_bands": [
+    "21.0-30.0",
+    "30.0-40.0"
+  ],
+  "rebin_s_for_rebin_bands": 0.5,
+  "native_bin_s_for_other_bands": "~0.1 (native, not rebinned)",
+  "search_sigma": 4.0,
+  "preburst_window_s": 100.0,
+  "max_search_s": 60.0,
+  "pre_search_buffer_s": 5.0,
+  "bursts": [
+    {
+      "bid": 1,
+      "broadband_start_time_met": 195101671.92781428,
+      "broadband_start_time_mjd": 57455.12120287,
+      "bands": {
+        "3.0-9.0": {
+          "detected": true,
+          "preburst_rate": 987.11,
+          "preburst_rate_err": 3.0886708772201334,
+          "preburst_std": 97.67234914645898,
+          "start_time_met": 195101672.0778387,
+          "peak_time_met": 195101675.5778387,
+          "peak_rate": 5762.89,
+          "peak_rate_err": 259.82597606173704,
+          "rise_time_s": 3.5,
+          "efold_time_s": 3.69921875,
+          "decay_time_s": 8.80078125,
+          "amplitude_ratio": 6.838143671931193
+        },
+        "9.0-15.0": {
+          "detected": true,
+          "preburst_rate": 306.67,
+          "preburst_rate_err": 1.7714822181577914,
+          "preburst_std": 56.01918643865911,
+          "start_time_met": 195101672.0778387,
+          "peak_time_met": 195101674.37861994,
+          "peak_rate": 3043.33,
+          "peak_rate_err": 183.03861712572464,
+          "rise_time_s": 2.30078125,
+          "efold_time_s": 2.80078125,
+          "decay_time_s": 4.69921875,
+          "amplitude_ratio": 10.923794306583623
+        },
+        "15.0-21.0": {
+          "detected": true,
+          "preburst_rate": 92.33,
+          "preburst_rate_err": 1.0026347173205088,
+          "preburst_std": 31.706093678918826,
+          "start_time_met": 195101672.1794012,
+          "peak_time_met": 195101674.5778387,
+          "peak_rate": 977.67,
+          "peak_rate_err": 103.44565497148047,
+          "rise_time_s": 2.3984375,
+          "efold_time_s": 2.0,
+          "decay_time_s": 4.40234375,
+          "amplitude_ratio": 11.58886602404419
+        },
+        "21.0-30.0": {
+          "detected": true,
+          "preburst_rate": 52.51955741230809,
+          "preburst_rate_err": 1.0582221092810222,
+          "preburst_std": 14.965520589482852,
+          "start_time_met": 195101672.92781428,
+          "peak_time_met": 195101673.42781428,
+          "peak_rate": 252.59205256581612,
+          "peak_rate_err": 24.7253525244794,
+          "rise_time_s": 0.5,
+          "efold_time_s": 3.0,
+          "decay_time_s": 4.5,
+          "amplitude_ratio": 5.809485551883583
+        },
+        "30.0-40.0": {
+          "detected": false,
+          "preburst_rate": 47.39024233380551,
+          "preburst_rate_err": 0.8652121779153558,
+          "preburst_std": 12.235947963382594,
+          "start_time_met": null,
+          "peak_time_met": null,
+          "peak_rate": null,
+          "peak_rate_err": null,
+          "rise_time_s": null,
+          "efold_time_s": null,
+          "decay_time_s": null,
+          "amplitude_ratio": null
+        }
+      }
+    },
+    {
+      "bid": 2,
+      "broadband_start_time_met": 195151164.92781428,
+      "broadband_start_time_mjd": 57455.69403852,
+      "bands": {
+        "3.0-9.0": {
+          "detected": true,
+          "preburst_rate": 975.28,
+          "preburst_rate_err": 3.236633652021402,
+          "preburst_std": 102.35134291936475,
+          "start_time_met": 195151164.8825262,
+          "peak_time_met": 195151166.0778387,
+          "peak_rate": 7854.72,
+          "peak_rate_err": 297.17079413389064,
+          "rise_time_s": 1.1953125,
+          "efold_time_s": 4.703125,
+          "decay_time_s": 11.3984375,
+          "amplitude_ratio": 9.053810187843492
+        },
+        "9.0-15.0": {
+          "detected": true,
+          "preburst_rate": 306.38,
+          "preburst_rate_err": 1.8179109990316908,
+          "preburst_std": 57.48739340412296,
+          "start_time_met": 195151164.8825262,
+          "peak_time_met": 195151165.7809637,
+          "peak_rate": 4893.62,
+          "peak_rate_err": 228.04232609532085,
+          "rise_time_s": 0.8984375,
+          "efold_time_s": 3.3984375,
+          "decay_time_s": 5.8984375,
+          "amplitude_ratio": 16.97238723154253
+        },
+        "15.0-21.0": {
+          "detected": true,
+          "preburst_rate": 92.15,
+          "preburst_rate_err": 0.9970313794317467,
+          "preburst_std": 31.528900576638755,
+          "start_time_met": 195151164.9762762,
+          "peak_time_met": 195151165.7809637,
+          "peak_rate": 1717.85,
+          "peak_rate_err": 134.53993401122295,
+          "rise_time_s": 0.8046875,
+          "efold_time_s": 3.0,
+          "decay_time_s": 4.5,
+          "amplitude_ratio": 19.641888225718937
+        },
+        "21.0-30.0": {
+          "detected": true,
+          "preburst_rate": 51.345130210140404,
+          "preburst_rate_err": 1.0050531999229555,
+          "preburst_std": 14.213598662375214,
+          "start_time_met": 195151165.42781428,
+          "peak_time_met": 195151165.92781428,
+          "peak_rate": 533.6933570297485,
+          "peak_rate_err": 34.22114889701602,
+          "rise_time_s": 0.5,
+          "efold_time_s": 2.5,
+          "decay_time_s": 5.5,
+          "amplitude_ratio": 11.39423514645887
+        },
+        "30.0-40.0": {
+          "detected": true,
+          "preburst_rate": 48.68897687635601,
+          "preburst_rate_err": 0.9209695389336156,
+          "preburst_std": 13.024476124924153,
+          "start_time_met": 195151165.92781428,
+          "peak_time_met": 195151165.92781428,
+          "peak_rate": 81.54358047897617,
+          "peak_rate_err": 16.16518770227614,
+          "rise_time_s": 0.0,
+          "efold_time_s": 2.5,
+          "decay_time_s": 3.0,
+          "amplitude_ratio": 2.6747852534682193
+        }
+      }
+    },
+    {
+      "bid": 3,
+      "broadband_start_time_met": 195175285.42781428,
+      "broadband_start_time_mjd": 57455.97321097,
+      "bands": {
+        "3.0-9.0": {
+          "detected": true,
+          "preburst_rate": 920.78,
+          "preburst_rate_err": 3.1869339729822057,
+          "preburst_std": 100.77970107193286,
+          "start_time_met": 195175285.3825262,
+          "peak_time_met": 195175286.1794012,
+          "peak_rate": 9489.22,
+          "peak_rate_err": 322.66103330081074,
+          "rise_time_s": 0.796875,
+          "efold_time_s": 5.6015625,
+          "decay_time_s": 12.296875,
+          "amplitude_ratio": 11.305632181411413
+        },
+        "9.0-15.0": {
+          "detected": true,
+          "preburst_rate": 286.77,
+          "preburst_rate_err": 1.7485778863478243,
+          "preburst_std": 55.29488787062168,
+          "start_time_met": 195175285.3825262,
+          "peak_time_met": 195175286.8825262,
+          "peak_rate": 5453.23,
+          "peak_rate_err": 239.58935814038918,
+          "rise_time_s": 1.5,
+          "efold_time_s": 3.3984375,
+          "decay_time_s": 6.1953125,
+          "amplitude_ratio": 20.016040729504482
+        },
+        "15.0-21.0": {
+          "detected": true,
+          "preburst_rate": 94.74,
+          "preburst_rate_err": 0.9776953964749391,
+          "preburst_std": 30.91744310722166,
+          "start_time_met": 195175285.3825262,
+          "peak_time_met": 195175286.5778387,
+          "peak_rate": 1755.26,
+          "peak_rate_err": 136.01822334238665,
+          "rise_time_s": 1.1953125,
+          "efold_time_s": 3.6015625,
+          "decay_time_s": 5.6015625,
+          "amplitude_ratio": 19.52712687354866
+        },
+        "21.0-30.0": {
+          "detected": true,
+          "preburst_rate": 53.536710106381854,
+          "preburst_rate_err": 0.9379648494190691,
+          "preburst_std": 13.264826110776854,
+          "start_time_met": 195175285.92781428,
+          "peak_time_met": 195175286.92781428,
+          "peak_rate": 556.7379068704832,
+          "peak_rate_err": 34.9489484720622,
+          "rise_time_s": 1.0,
+          "efold_time_s": 3.5,
+          "decay_time_s": 5.0,
+          "amplitude_ratio": 11.399180408437484
+        },
+        "30.0-40.0": {
+          "detected": true,
+          "preburst_rate": 52.84419958599726,
+          "preburst_rate_err": 0.9191935152967216,
+          "preburst_std": 12.999359357780246,
+          "start_time_met": 195175285.92781428,
+          "peak_time_met": 195175286.92781428,
+          "peak_rate": 93.65968353792589,
+          "peak_rate_err": 17.142132251157935,
+          "rise_time_s": 1.0,
+          "efold_time_s": 2.5,
+          "decay_time_s": 4.0,
+          "amplitude_ratio": 2.7723739648191015
+        }
+      }
+    },
+    {
+      "bid": 4,
+      "broadband_start_time_met": 195188999.42781428,
+      "broadband_start_time_mjd": 57456.13193782,
+      "bands": {
+        "3.0-9.0": {
+          "detected": true,
+          "preburst_rate": 894.58,
+          "preburst_rate_err": 3.2703086274109543,
+          "preburst_std": 103.41623914317576,
+          "start_time_met": 195188999.3825262,
+          "peak_time_met": 195189000.6794012,
+          "peak_rate": 8045.42,
+          "peak_rate_err": 299.0162055778771,
+          "rise_time_s": 1.296875,
+          "efold_time_s": 5.203125,
+          "decay_time_s": 11.0,
+          "amplitude_ratio": 9.993516510541259
+        },
+        "9.0-15.0": {
+          "detected": true,
+          "preburst_rate": 279.04,
+          "preburst_rate_err": 1.666750268173507,
+          "preburst_std": 52.70727138124736,
+          "start_time_met": 195188999.3825262,
+          "peak_time_met": 195189001.4762762,
+          "peak_rate": 4940.96,
+          "peak_rate_err": 228.47926983820025,
+          "rise_time_s": 2.09375,
+          "efold_time_s": 2.90625,
+          "decay_time_s": 5.6015625,
+          "amplitude_ratio": 18.706995412844034
+        },
+        "15.0-21.0": {
+          "detected": true,
+          "preburst_rate": 90.56,
+          "preburst_rate_err": 0.9451876955291896,
+          "preburst_std": 29.88945934237988,
+          "start_time_met": 195188999.4762762,
+          "peak_time_met": 195189001.5778387,
+          "peak_rate": 1739.44,
+          "peak_rate_err": 135.2807830657646,
+          "rise_time_s": 2.1015625,
+          "efold_time_s": 2.3984375,
+          "decay_time_s": 4.3984375,
+          "amplitude_ratio": 20.207597173144876
+        },
+        "21.0-30.0": {
+          "detected": true,
+          "preburst_rate": 51.15178498280786,
+          "preburst_rate_err": 0.9676519878373339,
+          "preburst_std": 13.684665648568428,
+          "start_time_met": 195188999.92781428,
+          "peak_time_met": 195189001.92781428,
+          "peak_rate": 558.6353501732264,
+          "peak_rate_err": 34.9358071099112,
+          "rise_time_s": 2.0,
+          "efold_time_s": 2.0,
+          "decay_time_s": 3.5,
+          "amplitude_ratio": 11.921131107369645
+        },
+        "30.0-40.0": {
+          "detected": true,
+          "preburst_rate": 47.84778784737128,
+          "preburst_rate_err": 0.9976190220251847,
+          "preburst_std": 14.108463510293998,
+          "start_time_met": 195188999.92781428,
+          "peak_time_met": 195189001.42781428,
+          "peak_rate": 100.50162037113196,
+          "peak_rate_err": 17.253812706526688,
+          "rise_time_s": 1.5,
+          "efold_time_s": 2.0,
+          "decay_time_s": 3.5,
+          "amplitude_ratio": 3.100444448795002
+        }
+      }
+    }
+  ]
+}
