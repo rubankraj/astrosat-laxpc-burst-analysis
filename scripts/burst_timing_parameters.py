@@ -25,17 +25,38 @@ count rate unless noted otherwise):
 
 Usage
 -----
-    python3 type1_burst_analysis.py --lc lightcurve.lc \\
+    python3 burst_timing_parameters.py --lc lightcurve.lc \\
         [--bkg background_lightcurve.lc] [--rebin 0.5] \\
-        [--search-sigma 4] [--preburst-window 100] [--min-sep 20]
+        [--search-sigma 4] [--preburst-window 100] [--min-sep 20] \\
+        [--json results/burst_analysis_confirmed.json] [--latex]
 
-Input formats
--------------
-Auto-detects both:
+Input
+-----
+--lc  : light curve file to analyze (FITS or ASCII). In this repo's
+        layout, this is typically one of the light curves produced by
+        the reduction pipeline (see docs/laxpc_data_reduction.md),
+        e.g. results/lc/lightcurve_all_3_80keV_0.1s.lc
+--bkg : (optional) matching background light curve, e.g.
+        results/lc/Back_lightcurve_3.0_80.0keV.lc
+
+Auto-detects both light curve formats:
   - FITS light curves (XSELECT/HEASoft-style, RATE extension with
     TIME/RATE/ERROR columns)
   - ASCII light curves (LAXPC laxpc_make_lightcurve output: whitespace-
     separated columns, '!' or '#' comment lines, typically Time Rate Error)
+
+Output
+------
+--json  : (optional) writes confirmed-burst parameters to the given
+          path, e.g. results/burst_analysis_confirmed.json. This is
+          the file plot_burst_lightcurves.py expects as its --json
+          input, so keep the filename consistent between the two
+          scripts if you customize it.
+--latex : (optional) prints a publication-style LaTeX table of
+          confirmed bursts to stdout.
+
+If neither flag is given, results print to stdout only (candidate
+table + confirmed-burst table) and nothing is written to disk.
 
 Notes
 -----
