@@ -25,10 +25,7 @@ count rate unless noted otherwise):
 
 Usage
 -----
-    python3 burst_timing_parameters.py --lc lightcurve.lc \\
-        [--bkg background_lightcurve.lc] [--rebin 0.5] \\
-        [--search-sigma 4] [--preburst-window 100] [--min-sep 20] \\
-        [--json results/burst_analysis_confirmed.json] [--latex]
+    python3 burst_timing_parameters.py --lc lightcurve.lc 
 
 Input
 -----
@@ -48,7 +45,7 @@ Auto-detects both light curve formats:
 Output
 ------
 --json  : (optional) writes confirmed-burst parameters to the given
-          path, e.g. results/burst_analysis_confirmed.json. This is
+          path, e.g. results/burst_timing_parameters.json. This is
           the file plot_burst_lightcurves.py expects as its --json
           input, so keep the filename consistent between the two
           scripts if you customize it.
