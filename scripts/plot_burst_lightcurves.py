@@ -44,7 +44,7 @@ Input
 -----
 --json : path to the confirmed-burst JSON produced by
          burst_timing_parameters.py --json, e.g.
-         results/burst_analysis_confirmed.json
+         results/burst_timing_parameters.json
          (the JSON itself points back to the original light curve
          file(s), so nothing else needs to be passed in)
 
@@ -58,7 +58,7 @@ Output
 Usage
 -----
     python3 plot_burst_lightcurves.py \\
-        --json results/burst_analysis_confirmed.json \\
+        --json results/burst_timing_parameters.json \\
         --outdir plots/
 """
 
